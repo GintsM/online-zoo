@@ -267,6 +267,7 @@ p {
   font-weight: 400;
 }
 
+h3,
 .pick_subt {
   font-size: 36px;
   line-height: 46.8px;
@@ -299,4 +300,72 @@ figcaption {
 
 .pick_and_feed>article>button {
   margin-block: 6% 2%;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 8.7% 13.75% 11%;
+}
+
+.testimonials>h3 {
+  text-align: center;
+}
+
+section.testimonials>ul {
+  padding-inline-start: initial;
+}
+
+.t_text {
+  border: 2px solid #E0D8F0;
+  border-radius: 28px;
+  width: 25%;
+  height: 38%;
+  padding: 0 16px;
+  margin: 1%;
+  background-color: #f1f3f2;
+}
+
+.t_card {
+  align-items: center;
+}
+
+.ico_cont {
+  margin-inline-end: 12px;
+}
+
+.t_author {
+  text-align: start;
+}
+
+.auth_name {
+  margin-block-end: auto;
+  font-weight: 400;
+}
+
+div.t_author>p:nth-child(2) {
+  color: #bdbdbd;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.t_text>p {
+  color: #767474;
+  height: 309px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+div.t_author>p:nth-child(2),
+.t_text>p {
+  margin-block: auto 10px;
+}
+
+hr {
+  width: 560px;
+  margin-block-end: 38px;
+}
+
+#sq_button {
+  border-radius: inherit;
+  margin-inline-start: 1%;
 }
