@@ -1,0 +1,371 @@
+body {
+  margin: auto;
+  font-family: Roboto;
+  width: 1600px;
+  /* temp */
+  border: 1px solid red;
+}
+
+.flex_row {
+  display: flex;
+}
+
+header {
+  background-color: #000;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  /* temp */
+  width: 100%;
+}
+
+header>nav {
+  margin: -5%;
+}
+
+#primary-navigation {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+  width: 82px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+h1>img {
+  margin-inline-end: -7%
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav>ul {
+  margin-left: -129%;
+}
+
+nav>ul>li {
+  margin-inline-end: 11%;
+}
+
+header>p>a {
+  color: #f9804b;
+}
+
+/* Section Watch Online */
+.watch_online {
+  width: 100%;
+  background-image: url(../../assets/images/Giant_Panda.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 107%;
+}
+
+.watch_circle {
+  text-align: center;
+  background-image: url(../../assets/images/Ellipse_main.png);
+  background-repeat: no-repeat;
+  background-position-x: 71%;
+  background-position-y: 9%;
+}
+
+.mainTitle {
+  width: 31%;
+  color: #fff;
+  margin: auto;
+  padding-inline-start: 41%;
+  padding-top: 5.7%;
+  font-size: 106.5px;
+  font-weight: 700;
+  line-height: 75%;
+  text-transform: uppercase;
+}
+
+.mainTitle>span {
+  color: #ffee2e;
+}
+
+button {
+  background-color: #f9804b;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  text-transform: uppercase;
+  width: max-content;
+  padding: 1% 6%;
+  border: none;
+  border-radius: 26px;
+}
+
+.watch_circle>button {
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 10.44%);
+  margin: 3.7% 61.2%;
+}
+
+/* Backstage */
+body>main>div.backstage.flex_row {
+  background: url(../../assets/images/flower_backstage.png) no-repeat right;
+  background-position-y: 10%;
+  width: 100%;
+}
+
+.backstage {
+  padding: 4.4% 0;
+  justify-content: center;
+  color: #333b41;
+  margin-inline-end: -1.3%;
+}
+
+.back_st {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  margin: auto;
+}
+
+.backstage.flex_row>article {
+  width: 30%;
+  padding-inline-start: 7%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20.8px;
+}
+
+.backstage.flex_row>article>h3 {
+  font-size: 24px;
+  line-height: 28.8px;
+  margin-block-start: 12.5%;
+  margin-block-end: 7%;
+}
+
+/* Pets */
+.pets {
+  padding: 1.6% 14%;
+  display: grid;
+  grid-template-columns: 366px 366px 366px;
+  row-gap: 15px;
+  column-gap: 30px;
+  position: relative;
+  padding-bottom: 14%;
+  background-image: url(../../assets/images/palm_foto.png), url(../../assets/images/strelitzia\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%, 100% 100%;
+}
+
+.pets>div.an_card {
+  border: 1px solid #f9804b;
+  border-radius: 5px;
+}
+
+.fir,
+.thr,
+.fou {
+  background-image: url(../../assets/icons/Banana.png), url(../../assets/icons/bamboo_green.png);
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 95%;
+}
+
+.sec,
+.fif,
+.six {
+  background-image: url(../../assets/icons/fish_icon.png), url(../../assets/icons/steak_icon.png);
+  background-repeat: no-repeat;
+  background-position: 98% 96.1%, 94% 95%
+}
+
+.an_title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  margin-block-start: 1%;
+  margin-block-end: -4.5%;
+  margin-inline-start: 3.5%;
+  text-transform: uppercase;
+}
+
+.an_small_txt {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 300;
+  margin-inline-start: 3.5%;
+}
+
+.b_left,
+.b_right {
+  position: absolute;
+  top: 38%;
+  width: 62px;
+  height: 62px;
+  padding: 0;
+  border-radius: 100%;
+}
+
+.b_left {
+  left: 9%;
+}
+
+.b_right {
+  right: 8%;
+}
+
+.an_bottom {
+  position: absolute;
+  right: 40.5%;
+  top: 87%;
+  padding: 1% 3.7%;
+}
+
+/* Pick a Friend */
+.pick_and_feed {
+  background:
+    linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%),
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  padding: 4.3% 13.7% 6.2%;
+}
+
+.pick_and_feed>article {
+  height: 52.1%;
+  text-align: center;
+  background: rgba(253, 253, 255, 0.52);
+  border-radius: 20px;
+  padding: 3.6%;
+}
+
+.pick_title {
+  font-size: 48px;
+  line-height: 57.6px;
+  color: #fe9013;
+  font-weight: 400;
+}
+
+.pick_p {
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #333B41;
+  text-align: left;
+}
+
+.pick_small {
+  color: #333b41;
+  text-align: left;
+  font-weight: 500;
+}
+
+.pick_smallest {
+  color: #333b41;
+  text-align: left;
+  width: 81%;
+  font-weight: 400;
+}
+
+h3,
+.pick_subt {
+  font-size: 36px;
+  line-height: 46.8px;
+  color: #333b41;
+}
+
+.figures {
+  justify-content: space-evenly;
+}
+
+figure {
+  width: 16%;
+  height: 244px;
+}
+
+.fig_cont {
+  background-color: #fff;
+  border: 1px solid #fe9013;
+  height: 69%;
+}
+
+figure>div>img {
+  padding-block-start: 35%;
+}
+
+figcaption {
+  text-align: initial;
+  padding-block-start: 30px;
+}
+
+.pick_and_feed>article>button {
+  margin-block: 6% 2%;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 8.7% 13.75% 11%;
+}
+
+.testimonials>h3 {
+  text-align: center;
+}
+
+section.testimonials>ul {
+  padding-inline-start: initial;
+}
+
+.t_text {
+  border: 2px solid #E0D8F0;
+  border-radius: 28px;
+  width: 25%;
+  height: 38%;
+  padding: 0 16px;
+  margin: 1%;
+  background-color: #f1f3f2;
+}
+
+.t_card {
+  align-items: center;
+}
+
+.ico_cont {
+  margin-inline-end: 12px;
+}
+
+.t_author {
+  text-align: start;
+}
+
+.auth_name {
+  margin-block-end: auto;
+  font-weight: 400;
+}
+
+div.t_author>p:nth-child(2) {
+  color: #bdbdbd;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.t_text>p {
+  color: #767474;
+  height: 309px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+div.t_author>p:nth-child(2),
+.t_text>p {
+  margin-block: auto 10px;
+}
+
+hr {
+  width: 560px;
+  margin-block-end: 38px;
+}
+
+#sq_button {
+  border-radius: inherit;
+  margin-inline-start: 1%;
+}
