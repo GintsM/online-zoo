@@ -2,6 +2,8 @@ body {
   margin: auto;
   font-family: Roboto;
   width: 1600px;
+  /* temp */
+  border: 1px solid red;
 }
 
 .flex_row {
@@ -56,11 +58,10 @@ header>p>a {
 /* Section Watch Online */
 .watch_online {
   width: 100%;
-  height: 73vh;
   background-image: url(../../assets/images/Giant_Panda.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 100% 81vh;
+  background-size: 100% 107%;
 }
 
 .watch_circle {
@@ -104,4 +105,120 @@ button {
 .watch_circle>button {
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 10.44%);
   margin: 3.7% 61.2%;
+}
+
+/* Backstage */
+body>main>div.backstage.flex_row {
+  background: url(../../assets/images/flower_backstage.png) no-repeat right;
+  background-position-y: 10%;
+  width: 100%;
+}
+
+.backstage {
+  padding: 4.4% 0;
+  justify-content: center;
+  color: #333b41;
+  margin-inline-end: -1.3%;
+}
+
+.back_st {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  margin: auto;
+}
+
+.backstage.flex_row>article {
+  width: 30%;
+  padding-inline-start: 7%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20.8px;
+}
+
+.backstage.flex_row>article>h3 {
+  font-size: 24px;
+  line-height: 28.8px;
+  margin-block-start: 12.5%;
+  margin-block-end: 7%;
+}
+
+/* Pets */
+.pets {
+  padding: 1.6% 14%;
+  display: grid;
+  grid-template-columns: 366px 366px 366px;
+  row-gap: 15px;
+  column-gap: 30px;
+  position: relative;
+  padding-bottom: 14%;
+  background-image: url(../../assets/images/palm_foto.png), url(../../assets/images/strelitzia\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%, 100% 100%;
+}
+
+.pets>div.an_card {
+  border: 1px solid #f9804b;
+  border-radius: 5px;
+}
+
+.fir,
+.thr,
+.fou {
+  background-image: url(../../assets/icons/Banana.png), url(../../assets/icons/bamboo_green.png);
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 95%;
+}
+
+.sec,
+.fif,
+.six {
+  background-image: url(../../assets/icons/fish_icon.png), url(../../assets/icons/steak_icon.png);
+  background-repeat: no-repeat;
+  background-position: 98% 96.1%, 94% 95%
+}
+
+.an_title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  margin-block-start: 1%;
+  margin-block-end: -4.5%;
+  margin-inline-start: 3.5%;
+  text-transform: uppercase;
+}
+
+.an_small_txt {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 300;
+  margin-inline-start: 3.5%;
+}
+
+.b_left,
+.b_right {
+  position: absolute;
+  top: 38%;
+  width: 62px;
+  height: 62px;
+  padding: 0;
+  border-radius: 100%;
+}
+
+.b_left {
+  left: 9%;
+}
+
+.b_right {
+  right: 8%;
+}
+
+.an_bottom {
+  position: absolute;
+  right: 40.5%;
+  top: 87%;
+  padding: 1% 3.7%;
 }
