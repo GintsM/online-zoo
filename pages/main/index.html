@@ -8,12 +8,12 @@
   <title>GM Online-Zoo</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" href="../../assets/icons/tab_panda_96.png">
 </head>
 
 <body>
   <header class="flex_row">
-    <h1 id="primary-navigation">PetStory <img src="../../assets/icons/bamboo.png" alt="">online</h1>
-
+    <h1 id="primary-navigation" class="logo">PetStory <img src="../../assets/icons/bamboo.png" alt="">online</h1>
     <nav aria-labelledby="primary-navigation">
       <ul class="flex_row">
         <li class="crumb about"><a href="#">About</a></li>
@@ -214,34 +214,37 @@
       <button type="button" id="sq_button">leave feedback</button>
     </section>
   </main>
-  <footer>
+  <footer class="flex_row">
     <div class="foot_first_c">
-      <h5 class="logo">PetStory online</h5>
+      <h5 class="logo">PetStory <img src="../../assets/icons/bamboo.png" alt="">online</h5>
       <button type="button">Donate for volunteers</button>
-      <!-- If You are not sure about nav tag here please visit MDN page
-       https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#labeling_section_content -->
-      <nav>
-        <ul>
-          <li class="crumb about"><a href="#">one</a></li>
-          <li class="crumb"><a href="#">two</a></li>
-          <li class="crumb"><a href="#">three</a></li>
-          <li class="crumb"><a href="#">four</a></li>
+      <ul>
+        <li class="soc"><a href="#">Facebook</a></li>
+        <li class="soc"><a href="#">Twitter</a></li>
+        <li class="soc"><a href="#">Instagram</a></li>
+        <li class="soc"><a href="#">YouTube</a></li>
+      </ul>
+      <div class="foot_nav">
+        <ul class="flex_row">
+          <li class="crumb"><a href="#">About</a></li>
+          <li class="crumb"><a href="#">Map</a></li>
+          <li class="crumb"><a href="#">Zoos</a></li>
+          <li class="crumb"><a href="#">Contact</a></li>
         </ul>
-      </nav>
+      </div>
     </div>
-    <form action="#" method="post">
-      <input type="email" name="email" id="email">
-      <button type="submit">Submit</button>
-    </form>
-    <ul>
-      <li class="crumb about"><a href="#">About</a></li>
-      <li class="crumb"><a href="#">Map</a></li>
-      <li class="crumb"><a href="#">Zoos</a></li>
-      <li class="crumb"><a href="#">Contact</a></li>
-    </ul>
-    <div class="designer">
-      <p>Designed by Alisa Samborskaya</p>
-      <p>©RSSchool & ©Yem Digital 2021</p>
+    <div class="foot_second_p">
+      <h5>Subscribe to our news</h5>
+      <form action="#" method="post" class="flex_row">
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <button type="submit">Submit</button>
+      </form>
+      <div class="des_abs flex_row">
+        <div class="designer">
+          <p>Designed by Alisa Samborskaya</p>
+          <p>©RSSchool & ©Yem Digital 2021</p>
+        </div>
+      </div>
     </div>
   </footer>
 </body>
