@@ -2,8 +2,6 @@ body {
   margin: auto;
   font-family: Roboto;
   width: 1600px;
-  /* temp */
-  border: 1px solid red;
 }
 
 .flex_row {
@@ -45,15 +43,11 @@ ul {
 }
 
 nav>ul {
-  margin-left: -129%;
+  margin-left: -144%;
 }
 
 nav>ul>li {
   margin-inline-end: 11%;
-}
-
-header>p>a {
-  color: #f9804b;
 }
 
 /* Section Watch Online */
@@ -105,7 +99,9 @@ button {
 
 .watch_circle>button {
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 10.44%);
-  margin: 3.7% 61.2%;
+  margin-block-start: 3.25%;
+  margin-block-end: 6.8%;
+  margin-inline-start: 42%;
 }
 
 /* Backstage */
