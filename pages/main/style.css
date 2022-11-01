@@ -95,6 +95,7 @@ button {
   padding: 1% 6%;
   border: none;
   border-radius: 26px;
+  cursor: pointer;
 }
 
 .watch_circle>button {
@@ -102,6 +103,16 @@ button {
   margin-block-start: 3.25%;
   margin-block-end: 6.8%;
   margin-inline-start: 42%;
+}
+
+button:hover,
+.watch_circle>button:hover {
+  background: #E47209;
+}
+
+button:active,
+.watch_circle>button:active {
+  background: #4B9200;
 }
 
 /* Backstage */
@@ -176,6 +187,15 @@ p {
   background-image: url(../../assets/icons/fish_icon.png), url(../../assets/icons/steak_icon.png);
   background-repeat: no-repeat;
   background-position: 98% 96.1%, 94% 95%
+}
+
+.an_card>div>img {
+  width: 100%;
+}
+
+.an_card>div>img:hover {
+  transform: scale(1.05);
+  border-radius: 5px;
 }
 
 .an_title {
@@ -264,6 +284,11 @@ p {
   font-weight: 400;
 }
 
+.pick_smallest>a {
+  color: inherit;
+  text-decoration: underline 2px #E47209;
+}
+
 h3,
 .pick_subt {
   font-size: 36px;
@@ -302,6 +327,8 @@ figcaption {
 /* Testimonials */
 .testimonials {
   padding: 8.7% 13.75% 11%;
+  background: url(../../assets/images/leaf.png) no-repeat;
+  background-position: right bottom;
 }
 
 .testimonials>h3 {
@@ -357,9 +384,24 @@ div.t_author>p:nth-child(2),
   margin-block: auto 10px;
 }
 
-hr {
+.inter {
+  border: 2px solid #e3ebe7;
+  border-radius: 5px;
+  background: #f5f7f6;
   width: 560px;
   margin-block-end: 38px;
+  margin-inline-start: 25%;
+}
+
+.inter:hover {
+  background: #4b9200;
+}
+
+.active {
+  width: 32%;
+  border: 4px solid #fE9013;
+  background: #fE9013;
+  border-radius: 5px;
 }
 
 #sq_button {
@@ -447,14 +489,17 @@ input {
   font-size: 16px;
 }
 
-form>button {
+#submit {
   color: #4b9200;
   border-radius: 5px;
-  text-transform: none;
   background-color: #fff;
   border: 1px solid #4b9200;
   margin-inline-start: 10px;
   padding: 10px 39px;
+  width: 129px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto;
 }
 
 .des_abs,
@@ -488,4 +533,8 @@ form>button {
 a {
   text-decoration: none;
   color: #fff;
+}
+
+a:hover {
+  color: #f9804b;
 }
