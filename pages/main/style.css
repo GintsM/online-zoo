@@ -99,7 +99,9 @@ button {
 
 .watch_circle>button {
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 10.44%);
-  margin: 3.7% 61.2%;
+  margin-block-start: 3.25%;
+  margin-block-end: 6.8%;
+  margin-inline-start: 42%;
 }
 
 /* Backstage */
