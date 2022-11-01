@@ -12,8 +12,6 @@ header {
   justify-content: space-around;
   align-items: center;
   height: 80px;
-  /* temp */
-  width: 100%;
 }
 
 header>nav {
@@ -156,7 +154,7 @@ p {
 .pets {
   padding: 1.6% 14%;
   display: grid;
-  grid-template-columns: 366px 366px 366px;
+  grid-template-columns: 31.8% 31.8% 31.8%;
   row-gap: 15px;
   column-gap: 30px;
   position: relative;
