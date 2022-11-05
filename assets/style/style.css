@@ -47,6 +47,16 @@ nav>ul>li {
   margin-inline-end: 11%;
 }
 
+nav>ul>li:nth-child(1)>a {
+  color: #F9804B;
+}
+
+nav>ul>li:nth-child(1)>a :visited {
+  pointer-events: none;
+  cursor: default;
+  color: #fff;
+}
+
 /* Section Watch Online */
 .watch_online {
   width: 100%;
@@ -494,6 +504,22 @@ footer {
   font-weight: 400;
   line-height: 28.8px;
   margin-block: 0 13px;
+}
+
+.don_button {
+  display: inline-block;
+  position: relative;
+  width: 133%;
+  text-align: center;
+  padding: 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.don_button:hover {
+  color: #d3cfcf;
+  background: #E47209;
 }
 
 input {
