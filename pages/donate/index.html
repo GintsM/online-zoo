@@ -15,13 +15,13 @@
 <body>
   <header class="flex_row">
     <h1 id="primary-navigation" class="logo">
-      <a href="#">
+      <a href="../main/index.html">
         PetStory <img src="../../assets/icons/bamboo.png" alt="">online
       </a>
     </h1>
     <nav aria-labelledby="primary-navigation">
       <ul class="flex_row">
-        <li><a href="#">About</a></li>
+        <li><a href="../main/index.html">About</a></li>
         <li><a href="#">Map</a></li>
         <li><a href="#">Zoos</a></li>
         <li><a href="../donate/index.html">Donate</a></li>
@@ -45,22 +45,13 @@
       <article>
         <h2 class="pick_title">Pick and feed a friend</h2>
         <p class="pick_p">We know the animals bring you joy, and in these extraordinary times, we&#39;re glad.</p>
-        <!-- <p class="pick_small">During a time when the COVID-19 epidemic is touching all of our lives, we&#39;re proud and
-          glad
-          that people around the world find joy in PetStory.</p>
-        <p class="pick_smallest">Even though the zoo has reopened, we need you now more than ever to help us deal with
-          these problems. Please consider a gift to our <a href="../donate/index.html" target="_blank"
-            rel="noopener noreferrer"> Emergency
-            Support Fund</a> .</p>
-        <h3 class="pick_subt">How it works</h3> -->
         <div class="figures flex_row">
           <div class="donate_fig">
             <div class="wide_text">
-              <p class="px54">4</p>
+              <p class="px72">4</p>
               <p>Panda diet for the day.</p>
               <img src="../../assets/icons/x_icon.png" alt="">
             </div>
-
           </div>
           <div class="donate_panda">
             <img src="../../assets/images/panda_widget1.png" alt="">
@@ -68,7 +59,6 @@
         </div>
         <h6>Amount</h6>
         <ul class="mon_amount back_gr_dark flex_row">
-
           <li><a href="#">
               <div class="disk"></div>
             </a>
@@ -112,24 +102,30 @@
           <li><small>$</small>50</li>
           <li><small>$</small>25</li>
         </ul>
-
-
-        <button type="button">Feed a friend now</button>
+        <form action="#" id="input_amount">
+          <div class="dollar">
+            <input type="text" placeholder="Another Amount" id="add_amount"><span>$</span>
+          </div>
+          <div class="radio_inline">
+            <input type="radio" name="monthly" id="monthly">
+            <label for="monthly">Monthly</label>
+            <input type="radio" name="once" id="once">
+            <label for="once">Once</label>
+          </div>
+        </form>
+        <button type="button" id="feed">Feed a friend now</button>
+        <p>Share with your friends on social networks </p>
       </article>
     </div>
   </main>
   <footer class="flex_row">
     <div class="foot_first_c">
       <h5 class="logo">
-        <a href="#">
+        <a href="../main/index.html">
           PetStory <img src="../../assets/icons/bamboo.png" alt="">online
         </a>
       </h5>
       <a href="../donate/index.html" target="_blank" class="don_button">donate for volunteers</a>
-      <!-- <form action="../donate/index.html" method="get" target="_blank">
-        <button type="submit">Click me</button>
-      </form> -->
-      <!-- <button type="button"><a href="../donate/index.html" target="_blank"></a> Donate for volunteers</button> -->
       <ul>
         <li class="soc"><a href="https://www.facebook.com/">Facebook</a></li>
         <li class="soc"><a href="https://twitter.com/">Twitter</a></li>
@@ -138,7 +134,7 @@
       </ul>
       <div class="foot_nav">
         <ul class="flex_row">
-          <li class="crumb"><a href="#">About</a></li>
+          <li class="crumb"><a href="../main/index.html">About</a></li>
           <li class="crumb"><a href="#">Map</a></li>
           <li class="crumb"><a href="#">Zoos</a></li>
           <li class="crumb"><a href="#">Contact</a></li>
