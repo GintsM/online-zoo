@@ -1,3 +1,12 @@
+nav>ul>li:nth-child(1)>a {
+  color: #fff;
+}
+
+nav>ul>li:nth-child(4)>a {
+  color: #FE9013;
+  pointer-events: none;
+}
+
 .donate {
   height: 24.5rem;
   background-position: 16%;
@@ -84,6 +93,13 @@ article>h6 {
   border: 5px solid #ffee2e;
   border-radius: 100%;
   width: 0;
+}
+
+.back_gr_dark>li:hover a>div {
+  box-shadow:
+    0 0 12px 12px #404950,
+    0 0 14px 14px #FE9013;
+
 }
 
 .amount_diff> :nth-child(n+2):nth-child(-n+6) {
