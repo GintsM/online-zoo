@@ -1,0 +1,14 @@
+figure>div>img {
+  padding-block-start: 35%;
+}
+
+.fig_cont {
+  background-color: #fff;
+  border: 1px solid #fe9013;
+  height: 69%;
+}
+
+figcaption {
+  text-align: initial;
+  padding-block-start: 30px;
+}

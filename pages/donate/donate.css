@@ -1,3 +1,104 @@
 .donate {
-  height: 390px;
+  height: 24.5rem;
+  background-position: 16%;
+  background-size: auto;
+}
+
+#donate_artcl {
+  background: inherit;
+  text-align: start;
+  padding: initial;
+  color: #fff;
+}
+
+#donate_artcl>h3:nth-child(1) {
+  color: inherit;
+  margin-block-end: 1%;
+}
+
+.orange {
+  color: #FE9013;
+  margin-block-end: 5.1%;
+}
+
+div.pick_and_feed>article {
+  padding: 3.6% 7.9%;
+}
+
+.pick_title {
+  margin-block-start: 0;
+}
+
+/* Pick a Friend Images */
+.figures {
+  justify-content: center;
+  align-items: center;
+}
+
+.donate_fig {
+  margin-inline-end: 10%;
+}
+
+.px54 {
+  font-size: 54px;
+  margin-block: 48% auto;
+}
+
+.wide_text {
+  position: relative;
+}
+
+.wide_text>img {
+  position: absolute;
+  top: 10%;
+  right: -15.1%;
+}
+
+article>h6 {
+  text-align: start;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  padding-inline-start: 4px;
+  margin-block: 4.6% 1.7%;
+}
+
+/* progress bar */
+.back_gr_dark {
+  border: 12px solid #404950;
+  border-inline-width: 26px;
+  height: 2px;
+  align-items: center;
+}
+
+.disk {
+  /* padding: 1px; */
+  border: 5px solid #ffee2e;
+  border-radius: 100%;
+  width: 0;
+}
+
+.amount_diff> :nth-child(n+2):nth-child(-n+6) {
+  margin-inline-end: 2%;
+  margin-inline-start: -3%;
+}
+
+.mon_amount {
+  padding-inline: 0;
+  justify-content: space-between;
+}
+
+.amount_diff {
+  margin-inline-end: 1%;
+}
+
+.mon_amount li {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+
+.mon_amount li>small {
+  font-size: 20px;
 }
