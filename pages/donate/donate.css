@@ -129,6 +129,7 @@ article>h6 {
 
 /* input  */
 .dollar {
+  width: 27%;
   margin: auto;
   margin-block: 4.9% 2.8%;
   position: relative;
@@ -156,6 +157,8 @@ div.dollar>span {
   top: 33%;
   right: 1%;
 }
+
+
 
 ::placeholder {
   color: #929699;
