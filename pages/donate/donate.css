@@ -129,21 +129,15 @@ article>h6 {
 
 /* input  */
 .dollar {
-  width: 27.5%;
-  /* border: 1px solid #929699; */
   margin: auto;
   margin-block: 4.9% 2.8%;
   position: relative;
 }
 
-/* #add_amount {
-  padding-block: 17px;
-  border: none;
-} */
-
 input[type="number" i] {
   width: 100%;
   padding-block: 16px;
+  -moz-appearance: textfield;
 }
 
 input[type="number" i]:hover,
@@ -162,10 +156,6 @@ div.dollar>span {
   top: 33%;
   right: 1%;
 }
-
-/* #add_amount :focus {
-  border: 3px dotted red;
-} */
 
 ::placeholder {
   color: #929699;
