@@ -130,15 +130,42 @@ article>h6 {
 /* input  */
 .dollar {
   width: 27.5%;
-  border: 1px solid #929699;
+  /* border: 1px solid #929699; */
   margin: auto;
   margin-block: 4.9% 2.8%;
+  position: relative;
 }
 
-#add_amount {
+/* #add_amount {
   padding-block: 17px;
   border: none;
+} */
+
+input[type="number" i] {
+  width: 100%;
+  padding-block: 16px;
 }
+
+input[type="number" i]:hover,
+input[type="number" i]:focus {
+  outline: none;
+  border: 1px solid #4B9200;
+  border-radius: 2px;
+}
+
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+div.dollar>span {
+  position: absolute;
+  top: 33%;
+  right: 1%;
+}
+
+/* #add_amount :focus {
+  border: 3px dotted red;
+} */
 
 ::placeholder {
   color: #929699;
