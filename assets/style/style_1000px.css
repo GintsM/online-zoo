@@ -37,6 +37,26 @@ nav>ul>li {
   margin-inline-start: 43%;
 }
 
+.backstage {
+  padding: 2.4% 0;
+}
+
 body>main>div.backstage.flex_row {
   background: none;
+}
+
+.man_image {
+  width: 27.5rem;
+  padding-inline-end: 1rem;
+  padding-block-start: 2.1rem;
+  overflow: hidden;
+}
+
+.man_image>img {
+  height: 100%;
+}
+
+.backstage.flex_row>article {
+  width: 46%;
+  padding-inline-start: 2.3rem;
 }
