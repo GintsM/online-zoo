@@ -1,0 +1,42 @@
+header {
+  padding-inline: 1.9rem;
+}
+
+nav>ul>li {
+  margin-inline-end: 7%;
+}
+
+.mainTitle {
+  width: 40%;
+  /* color: #fff; */
+  /* margin: auto; */
+  padding-inline-start: 42.6%;
+  padding-top: 2.8rem;
+  font-size: 5.31rem;
+  /* font-weight: 700; */
+  /* line-height: 75%; */
+  /* text-transform: uppercase;*/
+}
+
+.watch_online {
+  background-size: 118%;
+  background-position-x: 56%;
+  background-position-y: 399%;
+}
+
+.watch_circle {
+  background-size: 37%;
+  background-position-x: 72.5%;
+  background-position-y: -7%;
+}
+
+.watch_circle>button {
+  /* background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 10.44%); */
+  margin-block-start: 2.45rem;
+  /* margin-block-end: 6rem; */
+  margin-inline-start: 43%;
+}
+
+body>main>div.backstage.flex_row {
+  background: none;
+}
