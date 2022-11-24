@@ -8,14 +8,9 @@ nav>ul>li {
 
 .mainTitle {
   width: 40%;
-  /* color: #fff; */
-  /* margin: auto; */
   padding-inline-start: 42.6%;
   padding-top: 2.8rem;
   font-size: 5.31rem;
-  /* font-weight: 700; */
-  /* line-height: 75%; */
-  /* text-transform: uppercase;*/
 }
 
 .watch_online {
@@ -31,9 +26,7 @@ nav>ul>li {
 }
 
 .watch_circle>button {
-  /* background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 10.44%); */
   margin-block-start: 2.45rem;
-  /* margin-block-end: 6rem; */
   margin-inline-start: 43%;
 }
 
@@ -59,4 +52,143 @@ body>main>div.backstage.flex_row {
 .backstage.flex_row>article {
   width: 46%;
   padding-inline-start: 2.3rem;
+}
+
+.pets {
+  row-gap: 5.6rem;
+  padding: 10.35% 3.05% 27.7%;
+  column-gap: 2.8%;
+  background-position: 0 100%, 101% 100%;
+  background-size: 19.5%, 24.2%;
+}
+
+.an_title {
+  margin-block-start: 0;
+  margin-inline-start: 4.5%;
+}
+
+.an_small_txt {
+  margin-inline-start: 4.5%;
+  margin-block-start: 4%;
+}
+
+.b_left,
+.b_right {
+  top: 40%;
+}
+
+.b_left {
+  left: 35.5%;
+}
+
+.b_right {
+  right: 35%;
+}
+
+.an_bottom {
+  right: 34.7%;
+  top: 83.4%;
+}
+
+.pick_and_feed {
+  padding: 3% 2.5% 5% 3%;
+}
+
+.pick_and_feed>article {
+  padding: 2.85% 0 3.45% 5.3%;
+}
+
+.pick_title {
+  margin-block: 0 1rem;
+}
+
+.pick_small {
+  margin-block: -0.4rem 0;
+  width: 95%;
+}
+
+.pick_smallest {
+  width: 89%;
+  margin-block: 0.7rem 2.5rem;
+}
+
+.figures {
+  margin-inline-start: -5.2%;
+  padding-inline-end: 0;
+}
+
+.b_arrow {
+  position: absolute;
+  top: 28%;
+}
+
+.arr_left {
+  left: 30%;
+}
+
+.arr_right {
+  right: 30.7%;
+}
+
+.pick_and_feed>article>button {
+  margin-block: 6.2% 2%;
+  margin-inline-end: 3rem;
+}
+
+.testimonials {
+  padding: 6.5% 2% 14.1%;
+  background-position: 101% 101%;
+  background-size: 20%;
+}
+
+.testimonials>h3 {
+  margin-inline-end: 2rem;
+}
+
+section.testimonials>ul {
+  justify-content: space-between;
+  padding-block: 0;
+  margin-block-end: 0.8rem;
+}
+
+.testimonials>ul>li:nth-child(4) {
+  display: none;
+}
+
+.t_text {
+  width: 27%;
+}
+
+.inter {
+  margin-block-end: 3.2rem;
+  width: 24.38rem;
+  margin-inline-start: 29%;
+}
+
+footer {
+  padding: 4% 2.7%;
+}
+
+.soc {
+  padding-inline-start: 41px;
+}
+
+.foot_nav {
+  left: 99%;
+}
+
+.crumb {
+  margin-inline-end: 26%;
+}
+
+.m_in_st {
+  margin-inline-start: -8%;
+}
+
+input[type='email'] {
+  width: 208px;
+}
+
+.des_abs {
+  left: 37%;
 }

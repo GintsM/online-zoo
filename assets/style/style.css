@@ -182,9 +182,10 @@ p {
   row-gap: 15px;
   column-gap: 30px;
   position: relative;
-  background-image: url(../../assets/images/palm_foto.png), url(../../assets/images/strelitzia\ 1.png);
+  background-image: url(../../assets/images/palm_foto1.png), url(../../assets/images/strelitzia\ 1.png);
   background-repeat: no-repeat;
-  background-position: 0 100%, 100% 100%;
+  background-position: -9.7rem 100%, 100% 100%;
+  background-size: 28%, auto;
 }
 
 .pets>div.an_card {
