@@ -64,6 +64,10 @@ nav>ul>li:nth-child(1)>a :visited {
   color: #fff;
 }
 
+.widehidden {
+  display: none;
+}
+
 /* Section Watch Online */
 .watch_online {
   /* width: 100%; */
@@ -71,6 +75,7 @@ nav>ul>li:nth-child(1)>a :visited {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: auto auto;
+  background-color: #000;
 }
 
 .watch_circle {
@@ -438,6 +443,10 @@ section.testimonials>ul {
 .auth_name {
   margin-block: 0.7rem auto;
   font-weight: 400;
+}
+
+.t_author>p:nth-child(2) {
+  color: #bdbdbd;
 }
 
 .t_text>p {
