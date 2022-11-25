@@ -1,3 +1,162 @@
-body {
-  width: 320px;
+.mainTitle {
+  padding-block-start: 25%;
+  padding-inline-start: 52.6%;
+}
+
+.watch_online {
+  /* background-size: 100%; */
+  background-position: 0 33%;
+  background-color: #fff;
+}
+
+.watch_circle {
+  background-position-y: 32%;
+}
+
+.watch_circle>button {
+  margin-block-start: 19%;
+}
+
+body>main>div.backstage.flex_row {
+  background-position-y: -8%;
+  background-position-x: 117%;
+  background-size: 23%;
+  padding-bottom: 8.2%;
+}
+
+.backstage.flex_row>article {
+  width: 90%;
+  padding-inline-start: 2%;
+  padding-block-start: 9.9%;
+}
+
+.back_st {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.backstage>p {
+  margin-block-start: 11px;
+  padding-inline-start: 2%;
+}
+
+.backstage.flex_row>article>h3 {
+  margin-block: 7% auto;
+  padding-inline-start: 2%;
+}
+
+.flex_row>article>p:nth-child(4) {
+  margin-block-start: 9px;
+  padding-inline-start: 1%;
+}
+
+/* PETS */
+.pets {
+  padding: 0 5.05% 41.4%;
+  row-gap: 15px;
+  background-position: -5% 100%, 108% 100%;
+  background-size: 22%, 27.2%;
+}
+
+.an_bottom {
+  right: 3.5%;
+  top: initial;
+  bottom: 4%;
+}
+
+/* PICK AND FEED A FRIEND */
+.pick_and_feed {
+  padding: 6% 3%;
+}
+
+.pick_and_feed>article {
+  padding: 1.16% 0 13.3% 0%;
+}
+
+.pick_title {
+  margin-block: 1.05rem 0.7rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  padding-inline-start: 22px;
+}
+
+.pick_p {
+  margin-inline-start: 4px;
+  margin-block-start: -2px;
+}
+
+h3,
+.pick_subt {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-inline-end: auto;
+  margin-block: 0 20px;
+}
+
+.figures {
+  margin: auto;
+}
+
+figure {
+  margin: auto;
+  margin-block-end: 1.1%;
+}
+
+figcaption {
+  padding-block-start: 10px;
+}
+
+.pick_and_feed>article>button {
+  margin: initial;
+  margin-block-start: 4%;
+}
+
+.testimonials>h3 {
+  padding-inline-start: initial;
+  margin-inline-end: initial;
+}
+
+section.testimonials>ul {
+  margin-block-start: -4px;
+}
+
+.t_text {
+  margin: 5.6% auto;
+}
+
+#sq_button {
+  margin-inline-start: 10.5%;
+  margin-block-start: 7.3%;
+  margin-block-end: 6%;
+}
+
+footer {
+  padding: 4% 3%;
+}
+
+.foot_first_c>ul {
+  top: 14px;
+  left: 18%;
+}
+
+.soc {
+  padding-inline-start: 51px;
+}
+
+.don_button {
+  margin-block: 29.7% 46%;
+}
+
+.des_abs {
+  top: 61.3%;
+  left: -13.38rem;
+}
+
+.foot_first_c>div>ul {
+  width: 80%;
+}
+
+.foot_nav {
+  top: 85.5%;
+  left: 4%;
 }

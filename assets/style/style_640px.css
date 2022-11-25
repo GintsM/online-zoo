@@ -2,7 +2,16 @@ header {
   justify-content: space-between;
   padding-inline: 1.25rem;
   height: 2.15rem;
-  position: sticky;
+  position: fixed;
+  width: 94%;
+  z-index: 1;
+}
+
+@media(max-width:610px) {
+  header {
+    padding-inline: 1%;
+    width: 98%;
+  }
 }
 
 #primary-navigation {
@@ -99,6 +108,15 @@ body>main>div.backstage.flex_row {
 }
 
 @media(max-width:500px) {
+  .watch_circle>button {
+    margin: initial;
+  }
+
+  .backstage {
+    margin: initial;
+    padding: initial;
+  }
+
   .pets {
     grid-template-columns: 1fr;
   }
@@ -250,17 +268,15 @@ footer {
   top: -42px;
 }
 
+.foot_first_c>ul {
+  top: -42px;
+  right: -20%;
+}
+
 @media(max-width:610px) {
   .foot_first_c>ul {
     top: -42px;
     right: -60%;
-  }
-}
-
-@media(max-width:500px) {
-  .foot_first_c>ul {
-    top: -42px;
-    right: -20%;
   }
 }
 
@@ -273,6 +289,87 @@ footer {
   margin-inline-end: 21%;
 }
 
+@media(max-width:500px) {
+
+  .b_left,
+  .b_right {
+    display: none;
+  }
+
+  .figures {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arr_left,
+  .arr_right {
+    left: initial;
+    transform: rotate(86deg);
+    right: 2.5%;
+  }
+
+  .arr_left {
+    top: 59%;
+  }
+
+  .arr_right {
+    top: 25.5%;
+  }
+
+  .pick_p {
+    font-size: 1.125rem;
+    line-height: 1.35rem;
+    text-align: center;
+    width: 96%;
+  }
+
+  .pick_small,
+  .pick_smallest {
+    display: none;
+  }
+
+
+  .pick_and_feed>article>button {
+    margin: initial;
+  }
+
+  .t_text {
+    width: auto;
+  }
+
+  #sq_button {
+    margin-inline-start: 12.5%;
+  }
+
+  .foot_first_c>h5 {
+    border: none;
+    width: auto;
+  }
+
+  .don_button {
+    margin-block: 20.7% 44%;
+  }
+
+  .foot_first_c>h5>a>img {
+    top: -3px;
+    left: 52.5%
+  }
+
+  .foot_first_c>ul {
+    top: 0;
+    left: 0;
+    right: initial;
+  }
+
+  .soc {
+    display: inline-block;
+  }
+
+  .foot_first_c>div>ul {
+    width: 90%;
+  }
+}
+
 .foot_nav {
   top: 83.5%;
 }
@@ -280,4 +377,17 @@ footer {
 .des_abs {
   top: 74%;
   left: -14.3rem;
+}
+
+@media (max-width:500px) {
+  .des_abs {
+    top: 54%;
+    left: -18.3rem;
+  }
+
+  .foot_second_p>div>div>p:nth-child(n+1) {
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 136%;
+  }
 }
