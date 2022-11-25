@@ -3,12 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GM Online-Zoo</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="../../assets/style/style.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../../assets/style/style_1000px.css">
+  <link rel="stylesheet" media="screen and (max-width: 640px)" href="../../assets/style/style_640px.css">
+  <link rel="stylesheet" media="screen and (max-width: 320px)" href="../../assets/style/style_320px.css">
   <link rel="icon" type="image/png" href="../../assets/icons/tab_panda_96.png">
 </head>
 
@@ -25,10 +27,12 @@
         <li><a href="#">Map</a></li>
         <li><a href="#">Zoos</a></li>
         <li><a href="../donate/index.html">Donate</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Contact us</a></li>
       </ul>
     </nav>
-    <p><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by &#9426;</a></p>
+    <p><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="wideshow">Designed by
+        &#9426;</a></p>
+    <p><a href="#" class="widehidden"><img src="../../assets/icons/burger_menu.png" alt=""></a></p>
   </header>
   <main>
     <section class="watch_online">
@@ -141,13 +145,25 @@
             </div>
             <figcaption>Your favourite animal gets delicious dish</figcaption>
           </figure>
+          <div class="b_arrow arr_left">
+            <img src="../../assets/icons/b_arrow.png" alt="">
+          </div>
+          <div class="b_arrow arr_right">
+            <img src="../../assets/icons/b_arrow.png" alt="">
+          </div>
+          <div class="s_arrow arr_left">
+            <img src="../../assets/icons/s_arrow.png" alt="">
+          </div>
+          <div class="s_arrow arr_right">
+            <img src="../../assets/icons/s_arrow.png" alt="">
+          </div>
         </div>
         <button type="button">Feed a friend now</button>
       </article>
     </div>
     <section class="testimonials">
       <h3 class="t_title">Testimonials</h3>
-      <ul class="flex_row">
+      <ul class="flex_row sm_block">
         <li class="t_text">
           <div class="t_card flex_row">
             <div class="ico_cont">
@@ -244,11 +260,9 @@
           PetStory <img src="../../assets/icons/bamboo.png" alt="">online
         </a>
       </h5>
-      <a href="../donate/index.html" target="_blank" class="don_button">donate for volunteers</a>
-      <!-- <form action="../donate/index.html" method="get" target="_blank">
-        <button type="submit">Click me</button>
-      </form> -->
-      <!-- <button type="button"><a href="../donate/index.html" target="_blank"></a> Donate for volunteers</button> -->
+      <a href="../donate/index.html" target="_blank" class="don_button">
+        <p>donate for volunteers</p>
+      </a>
       <ul>
         <li class="soc"><a href="https://www.facebook.com/">Facebook</a></li>
         <li class="soc"><a href="https://twitter.com/">Twitter</a></li>
@@ -260,13 +274,13 @@
           <li class="crumb"><a href="#">About</a></li>
           <li class="crumb"><a href="#">Map</a></li>
           <li class="crumb"><a href="#">Zoos</a></li>
-          <li class="crumb"><a href="#">Contact</a></li>
+          <li class="crumb"><a href="#">Contact us</a></li>
         </ul>
       </div>
     </div>
     <div class="foot_second_p">
-      <h5>Subscribe to our news</h5>
-      <form action="#" method="post" class="flex_row">
+      <h5 class="m_in_st">Subscribe to our news</h5>
+      <form action="#" method="post" class="flex_row m_in_st">
         <input type="email" name="email" id="email" placeholder="Enter your email" required>
         <input type="submit" id="submit" value="Submit">
       </form>
