@@ -66,10 +66,11 @@ nav>ul>li:nth-child(1)>a :visited {
 
 /* Section Watch Online */
 .watch_online {
-  width: 100%;
+  /* width: 100%; */
   background-image: url(../../assets/images/Giant_Panda.png);
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: auto auto;
 }
 
 .watch_circle {

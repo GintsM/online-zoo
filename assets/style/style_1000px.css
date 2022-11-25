@@ -13,10 +13,20 @@ nav>ul>li {
   font-size: 5.31rem;
 }
 
+@media (max-width:780px) {
+  .mainTitle {
+    /* width: 31%; */
+    padding-inline-start: 24.6%;
+    /* padding-top: 5.375rem; */
+    font-size: 3.4rem;
+    line-height: 2.54rem;
+  }
+}
+
 .watch_online {
-  background-size: 118%;
-  background-position-x: 56%;
-  background-position-y: 399%;
+  /* width: 100%; */
+  background-image: url(../../assets/images/Giant_Panda_sm.png);
+  /* background-size: auto auto; */
 }
 
 .watch_circle {
@@ -28,10 +38,11 @@ nav>ul>li {
 .watch_circle>button {
   margin-block-start: 2.45rem;
   margin-inline-start: 43%;
+  margin-block-end: 2.9rem;
 }
 
 .backstage {
-  padding: 2.4% 0;
+  padding: 7.4% 0;
 }
 
 body>main>div.backstage.flex_row {
@@ -45,6 +56,13 @@ body>main>div.backstage.flex_row {
   overflow: hidden;
 }
 
+@media (max-width:830px) {
+  .man_image {
+    display: none;
+  }
+
+}
+
 .man_image>img {
   height: 100%;
 }
@@ -52,11 +70,12 @@ body>main>div.backstage.flex_row {
 .backstage.flex_row>article {
   width: 46%;
   padding-inline-start: 2.3rem;
+  padding-block-start: 3%;
 }
 
 .pets {
   row-gap: 5.6rem;
-  padding: 10.35% 3.05% 27.7%;
+  padding: 0 3.05% 27.7%;
   column-gap: 2.8%;
   background-position: 0 100%, 101% 100%;
   background-size: 19.5%, 24.2%;
@@ -74,7 +93,7 @@ body>main>div.backstage.flex_row {
 
 .b_left,
 .b_right {
-  top: 40%;
+  top: 34%;
 }
 
 .b_left {
@@ -191,4 +210,38 @@ input[type='email'] {
 
 .des_abs {
   left: 37%;
+}
+
+@media (max-width:680px) {
+  footer {
+    padding: 2% 3%;
+  }
+
+  .don_button {
+    margin-block: 10.7% 44%;
+  }
+
+  .foot_first_c>ul {
+    position: absolute;
+    top: 0;
+    right: -107%;
+  }
+
+  .foot_first_c>ul>li {
+    overflow: hidden;
+    width: 0;
+  }
+
+  .foot_nav {
+    left: 0;
+  }
+
+  .m_in_st {
+    display: none;
+  }
+
+  .des_abs {
+    top: 76%;
+    left: -14.6rem;
+  }
 }
